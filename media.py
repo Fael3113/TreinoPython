@@ -4,5 +4,9 @@ num2 = float(input('Digite sua segunda nota: '))
 num3 = float(input('Digite sua terceira nota: '))
 num4 = float(input('Digite sua quarta nota: '))
 resultado = (num1 + num2 + num3 + num4) / 4
+if resultado>=7:
+    print('Aprovado')
+else:
+    print('Reprovado')
 print('Nome do Aluno:', nome)
 print('Sua media de notas é:{}'.format (resultado))
